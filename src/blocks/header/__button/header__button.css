@@ -3,11 +3,12 @@
     border:none;
     display: inline-block;
     position: relative;
-    padding: 13px;
+    padding: 14px;
     text-transform: uppercase;
     background: gray;
     color: white;
     text-decoration: none;
+    height: 100%;
   }
   
   .header__button:before,
@@ -41,6 +42,5 @@
 @media (max-width: 767px){
     .header__button{
         font-size: 10px;
-
     }
 }

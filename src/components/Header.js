@@ -6,15 +6,15 @@ function Header() {
     <header className='header'>
       <p className='header__adres'>г. Москва, ул. Бутлерова, 3</p>
       <div className='header__container'>
-        <Link to="/">
+        <Link to="/" className="header__link">
         <button className='header__button'>
           Главная
           </button>
           </Link>
-          <Link to="/info">
+          <Link to="/info" className="header__link">
              <button className='header__button'>О студии</button>
           </Link>
-          <Link to='/contacts'>
+          <Link to='/contacts' className="header__link">
             <button className='header__button'>Расписание и контакты</button>
         </Link>
       </div>

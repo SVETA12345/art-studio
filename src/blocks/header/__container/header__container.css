@@ -5,10 +5,12 @@
     border-top: 1px solid #237688;
     height: 50px;
     background: gray;
+    align-items: center;
 }
 
 @media (max-width: 767px){
     .header__container{
         margin-top: 10px;
+        justify-content: space-between;
     }
 }
