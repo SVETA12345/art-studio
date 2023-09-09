@@ -1,0 +1,14 @@
+.header__container{
+    width:100%;
+    margin-top: 20px;
+    display: flex;
+    border-top: 1px solid #237688;
+    height: 50px;
+    background: gray;
+}
+
+@media (max-width: 767px){
+    .header__container{
+        margin-top: 10px;
+    }
+}

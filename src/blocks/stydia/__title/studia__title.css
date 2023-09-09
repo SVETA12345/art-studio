@@ -1,0 +1,18 @@
+.stydia__title{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 65px;
+    line-height: 76px;
+    max-width: 460px;
+    margin: 0 auto;
+    color: #237688;
+    margin-top: 60px;
+}
+
+@media (max-width: 1023px){
+    .stydia__title{
+        font-size: 30px;
+        line-height: auto;
+        text-align: center;
+    }
+  }

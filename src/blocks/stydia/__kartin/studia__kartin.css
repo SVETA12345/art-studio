@@ -1,0 +1,20 @@
+.stydia__kartin{
+    display: flex;
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 60px;
+    justify-content: space-between;
+}
+
+@media (max-width: 1023px){
+    .stydia__kartin{
+        width: 760px;
+    }
+  }
+
+  @media (max-width: 767px){
+    .stydia__kartin{
+        margin-top: 20px;
+        width: 320px;
+    }
+  }

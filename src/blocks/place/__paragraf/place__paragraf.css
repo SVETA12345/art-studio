@@ -1,0 +1,22 @@
+.place__paragraf{
+    margin: 0;
+    margin-bottom: 26px;
+    margin-top: 26px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 163%;
+    color: #152742;
+}
+
+@media (max-width: 1023px){
+    .place__paragraf{
+        font-size: 12px;
+    }
+  }
+
+  @media (max-width: 767px){
+    .place__paragraf{
+        margin-bottom: 0px;
+    }
+  }

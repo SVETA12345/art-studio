@@ -1,0 +1,19 @@
+.stydia__img{
+    width:360px;
+    height: 460px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+@media (max-width: 1023px){
+    .stydia__img{
+        width: 330px;
+        height: 440px;
+    }
+  }
+  @media (max-width: 767px){
+    .stydia__img{
+        width: 250px;
+        height: 350px;
+    }
+  }

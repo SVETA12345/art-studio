@@ -1,0 +1,16 @@
+.header__telephone{
+    margin: 0;
+    padding: 0;
+    margin-right: 30px;
+    margin-top: 5px;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 15px;
+}
+
+@media (max-width: 767px){
+    .header__telephone{
+        margin-right: 15px;
+        font-size: 12px;
+    }
+}

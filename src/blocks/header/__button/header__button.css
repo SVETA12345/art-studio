@@ -1,0 +1,46 @@
+.header__button{
+    cursor: pointer;
+    border:none;
+    display: inline-block;
+    position: relative;
+    padding: 13px;
+    text-transform: uppercase;
+    background: gray;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .header__button:before,
+  .header__button:after {
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 3px;
+    margin-left: 50%;
+    left: -15px;
+    background: transpartent;
+    transition: .4s;
+  }
+  
+  .header__button:before {
+    top: 0
+  }
+  
+  .header__button:after {
+    bottom: 0
+  }
+  
+  .header__button:hover:after,
+  .header__button:hover:before {
+    background: purple;
+  }
+  .header__button:hover{
+    opacity: 0.8;
+}
+
+@media (max-width: 767px){
+    .header__button{
+        font-size: 10px;
+
+    }
+}

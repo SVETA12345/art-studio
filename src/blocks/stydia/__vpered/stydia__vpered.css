@@ -1,0 +1,8 @@
+.stydia__vpered{
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+.stydia__vpered:hover{
+    opacity: 0.5;
+}

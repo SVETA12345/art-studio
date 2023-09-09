@@ -1,0 +1,17 @@
+.header__adres{
+    margin: 0;
+    padding: 0;
+    margin-right: 30px;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 20px;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 767px){
+    .header__adres{
+        margin-right: 15px;
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,25 @@
+.header__line{
+  height: 1px;
+
+}
+.header__line:before,
+.header__line:after {
+  position: absolute;
+  width: 30px;
+  height: 3px;
+  background: transpartent;
+  transition: .4s;
+}
+
+.header__line:before {
+    background: transpartent
+}
+
+.header__line:after {
+    background: transpartent
+}
+
+.header__line:hover:after,
+.header__line:hover:before {
+  background: purple;
+}

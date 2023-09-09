@@ -1,0 +1,18 @@
+.glavnay__title{
+    padding: 0;
+    margin: 0 auto;
+    padding-top: 50px;
+    text-align: center;
+    width: 600px;
+    font-weight: 900;
+    color: #237688;
+    font-size: 50px;
+}
+
+@media (max-width: 767px){
+    .glavnay__title{
+        padding-top: 30px;
+        width: 250px;
+        font-size: 20px;
+    }
+}

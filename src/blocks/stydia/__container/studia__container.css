@@ -1,0 +1,12 @@
+.stydia__container{
+    width: 740px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 40px;
+}
+
+@media (max-width: 767px){
+    .stydia__container{
+        width: 250px;
+    }
+  }
