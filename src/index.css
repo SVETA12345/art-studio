@@ -31,3 +31,6 @@
 @import url(./blocks/popup/__close/popup__close.css);
 @import url(./blocks/contacts/__subtitle/contacts__subtitle.css);
 @import url(./blocks/header/__link/header__link.css);
+@import url(./blocks/place/__container/place__container.css);
+@import url(./blocks/place/__subtitle/place__subtitle.css);
+@import url(./blocks/place/__img/_prepod/place__img_prepod.css);

@@ -7,6 +7,7 @@ import { useMediaQuery } from "../hooks/useMediaQuery";
 import strelkaVPered from '../images/strelka_vpered.png'
 import strelkaNazad from '../images/strelka_nazad.png'
 import constants from '../constants'
+import prepod from '../images/prepod-min.jpg'
 //отрисовка страницы "О студии"
 function Stydia({setCard}) {
   const {pictureList} = constants;
@@ -76,6 +77,32 @@ function Stydia({setCard}) {
                </p>
             </div>
             <img className="place__img" src={vistavka} alt="kartina"></img>
+        </div>
+        <div className="place">
+            <div className="place__container">
+              <h2 className="place__title">
+                Преподаватель
+               </h2>
+               <h3 className="place__subtitle">Радионова Валерия Викторовна</h3>
+               <ul>
+                <li className="place__paragraf">
+                  Художник–график, живописец, монументалист. 
+                </li>
+                <li className="place__paragraf">
+                  МГАХИ им.В.И.Сурикова. 
+                </li>
+                <li className="place__paragraf">
+                  Член Московского Союза художников.
+                </li>
+                <li className="place__paragraf">
+                  Педагогический стаж — 34 года. 
+                </li>
+                <li className="place__paragraf">
+                  Работы находятся в частных коллекциях России, США, Израиля, Великобритании, Италии, ОАЭ. 
+                </li>
+                </ul>
+            </div>
+            <img className="place__img place__img_prepod" src={prepod} alt="kartina"></img>
         </div>
     </section>
     <h2 className="stydia__title">Наши работы</h2>

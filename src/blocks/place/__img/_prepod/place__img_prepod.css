@@ -1,0 +1,21 @@
+.place__img_prepod{
+    margin-top: 0px;
+}
+
+@media (max-width: 1279px){
+    .place__img_prepod{
+      margin-top: 100px;
+    }
+  }
+
+  @media (max-width: 1023px){
+    .place__img_prepod{
+      margin-top: 80px;
+    }
+  }
+
+  @media (max-width: 767px){
+    .place__img_prepod{
+      margin-top: 20px;
+    }
+  }

@@ -1,0 +1,27 @@
+.place__subtitle{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 76px;
+    margin: 0;
+    color: #237688;
+}
+
+@media (max-width: 1279px){
+    .place__subtitle{
+      margin-top: 20px;
+      line-height: 40px;
+    }
+  }
+
+  @media (max-width: 1023px){
+    .place__subtitle{
+      font-size: 20px;
+    }
+  }
+
+  @media (max-width: 767px){
+    .place__subtitle{
+      text-align: center;
+    }
+  }
