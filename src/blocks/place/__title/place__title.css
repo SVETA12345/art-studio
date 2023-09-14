@@ -19,4 +19,7 @@
         line-height: 40px;
         max-width: 300px;
     }
+    .place__title:last-child{
+      text-align: center;
+    }
   }

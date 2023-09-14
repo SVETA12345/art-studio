@@ -80,7 +80,7 @@ function Stydia({setCard}) {
         </div>
         <div className="place">
             <div className="place__container">
-              <h2 className="place__title">
+              <h2 className="place__title place__title_prepod">
                 Преподаватель
                </h2>
                <h3 className="place__subtitle">Радионова Валерия Викторовна</h3>
