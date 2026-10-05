@@ -1,5 +1,4 @@
 import { React, useState} from "react";
-import { useNavigate, Link } from 'react-router-dom';
 import { Routes, Route } from 'react-router-dom';
 import Glavnay from "./Glavnay";
 import Header from "./Header";

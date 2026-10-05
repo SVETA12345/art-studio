@@ -10,7 +10,7 @@ function ImagePopup({ card, onClose }) {
       onClick={onClose}
     >
       <div className="popup__card" onClick={(e) => e.stopPropagation()}>
-        <img className="popup__photo" src={card.link} />
+        <img className="popup__photo" src={card.link} alt="Изображение студии" />
         <button
           type="button"
           className="popup__close popup__close_card_photo"

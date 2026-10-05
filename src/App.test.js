@@ -1,8 +1,25 @@
 import { render, screen } from '@testing-library/react';
-import App from './App';
+import { BrowserRouter } from 'react-router-dom';
+import App from './components/App';
 
-test('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+test('renders navigation links', () => {
+  render(
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
+  );
+  expect(screen.getByText('Главная')).toBeInTheDocument();
+  expect(screen.getByText('О студии')).toBeInTheDocument();
+  expect(screen.getByText('Расписание и контакты')).toBeInTheDocument();
+});
+
+test('renders home page title', () => {
+  render(
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
+  );
+  expect(
+    screen.getByText(/Художественная студия РГУ нефти и газа/i)
+  ).toBeInTheDocument();
 });
