@@ -132,11 +132,4 @@ npx serve -s build
 
 Приложение использует `BrowserRouter`, поэтому сервер должен перенаправлять все неизвестные пути на `index.html`, иначе прямой переход на `/info` и `/contacts` вернёт 404.
 
-## Известные проблемы
 
-- В `public/index.html` подключается `./serviceworker.js`, но самого файла нет — регистрация service worker падает с 404 в консоли браузера. Либо добавьте файл, либо удалите блок `<script>` из `index.html`.
-- Скрипт `start` использует Windows-синтаксис `set PORT=3006 && react-scripts start`, поэтому `npm start` не работает на macOS и Linux. Для кроссплатформенности замените на `cross-env PORT=3006 react-scripts start` (пакет `cross-env` уже установлен как зависимость).
-- В `package.json` имя проекта осталось `"my-app"` — стоит заменить на `art-studio`.
-- `public/manifest.json` содержит значения по умолчанию (`"name": "Create React App Sample"`).
-- При сборке выводится предупреждение `caniuse-lite is outdated` — обновляется командой `npx update-browserslist-db@latest`.
-- Сборка выводит предупреждение о ненайденной зависимости `@babel/plugin-proposal-private-property-in-object` в `babel-preset-react-app`. Это баг create-react-app; обходится добавлением пакета в `devDependencies`.
